@@ -6,6 +6,8 @@ import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
 
+// another test
+
 export const getStaticProps: GetStaticProps = async () => {
   const allPostsData = getSortedPostsData();
   return {
@@ -31,7 +33,7 @@ export default function Home({
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I am Janick. This is tutorial has a lot copy & past magic. I do
+          Hello, I am Janick. This is tutorial has a lot copy &#38; past magic. I do
           not like that :(
         </p>
         <p>I configured correctly, this change should be auto-deployed.</p>
