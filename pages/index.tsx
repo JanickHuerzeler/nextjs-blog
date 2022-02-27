@@ -6,6 +6,8 @@ import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
 
+// another test
+
 export const getStaticProps: GetStaticProps = async () => {
   const allPostsData = getSortedPostsData();
   return {
