@@ -31,7 +31,7 @@ export default function Home({
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I am Janick. This is tutorial has a lot copy & past magic. I do
+          Hello, I am Janick. This is tutorial has a lot copy &#38; past magic. I do
           not like that :(
         </p>
         <p>I configured correctly, this change should be auto-deployed.</p>
